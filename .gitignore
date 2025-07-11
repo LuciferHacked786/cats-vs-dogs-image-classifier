@@ -1,0 +1,9 @@
+git add .gitignore
+git commit -m "Add .gitignore to exclude virtual environment and temp files"
+
+myenv/
+__pycache__/
+*.pyc
+*.log
+.env
+.DS_Store
